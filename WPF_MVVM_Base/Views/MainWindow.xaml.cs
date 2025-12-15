@@ -20,10 +20,11 @@ namespace WPF_MVVM_Base
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int nobind;
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = new ViewModels.MainViewModel();
         }
     }
 }
