@@ -7,10 +7,5 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="tbTest"
-                   Text="Test"
-                   FontSize="36"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"/>
     </Grid>
 </Window>
