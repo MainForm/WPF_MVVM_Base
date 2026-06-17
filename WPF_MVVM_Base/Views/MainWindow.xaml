@@ -10,5 +10,8 @@
         d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Click Me" Command="{Binding IncreaseCommand}" 
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                Height="50" Width="100"/>
     </Grid>
 </Window>
